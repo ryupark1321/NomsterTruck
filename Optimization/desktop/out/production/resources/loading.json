@@ -1,0 +1,67 @@
+{
+	"textures": {
+        "background": {
+          "file":     "images/loading.png",
+          "minFilter": "linear",
+          "magFilter": "linear"
+        },
+      "white" : {
+         "file" : "images/white.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "playbutton": {
+        "file":     "images/newPlayButton.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "settingsbutton": {
+        "file":     "images/settingsbutton.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "whiteprogressbar": {
+        "file":     "images/whiteprogressbar.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "enemy": {
+        "file":     "images/enemy.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "creditsbutton": {
+        "file":     "images/creditsbutton.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "controlbutton": {
+        "file":     "images/controlButton.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "exitbutton" : {
+        "file":     "images/exitButton.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "titletext": {
+        "file":     "images/titleText.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "progress": {
+          "file":      "images/progressbar.png",
+          "minFilter": "linear",
+          "magFilter": "linear",
+          "atlas":     {
+              "background" : [16,   0, 216, 30],
+              "backleft"   : [0,    0,  15, 30],
+              "backright"  : [384,  0, 400, 30],
+              "foreground" : [16,  40, 216, 70],
+              "foreleft"   : [0,   40,  16, 70],
+              "foreright"  : [384, 40, 400, 70]
+          }
+      }
+	}
+}

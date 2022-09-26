@@ -1,0 +1,149 @@
+{
+  "boardR": 3,
+  "boardQ": 9,
+  "worldTimeLimit": 90,
+  "startPos": "(1.0,2.0)",
+  "exitTilePos": "(6.0,-3.0)",
+  "objects": {
+    "enemies": [],
+    "obstacles": [
+      {
+        "position": "(5.0,0.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(6.0,-1.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(7.0,-2.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(8.0,-2.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(8.0,-3.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(8.0,-4.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(7.0,-3.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(6.0,-2.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(4.0,0.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(5.0,-1.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(3.0,1.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(0.0,2.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(1.0,1.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(2.0,0.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(3.0,-1.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(4.0,-2.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(2.0,-1.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(1.0,0.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(0.0,1.0)",
+        "texture": "null"
+      }
+    ],
+    "keys": ["(2.0,1.0)", "(4.0,-1.0)", "(5.0,-2.0)"]
+  },
+  "kitchen": {
+    "recipes": [
+      {
+        "name": "1",
+        "difficulty": 0,
+        "rewards": {
+          "size": 2,
+          "movements": 1,
+          "turns": 0,
+          "throwable": false
+        },
+        "ingredients": [
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "rib",
+            "cookingMethod": "chop"
+          },
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "seaweed",
+            "cookingMethod": "fry"
+          }
+        ]
+      },
+      {
+        "name": "2",
+        "difficulty": 1,
+        "rewards": {
+          "size": 1,
+          "movements": 2,
+          "turns": 0,
+          "throwable": false
+        },
+        "ingredients": [
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "eye",
+            "cookingMethod": "fry"
+          },
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "eye",
+            "cookingMethod": "chop"
+          },
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "egg",
+            "cookingMethod": "pot"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      "seaweed",
+      "egg",
+      "rib",
+      "eye",
+      "noodle"
+    ]
+  }
+}

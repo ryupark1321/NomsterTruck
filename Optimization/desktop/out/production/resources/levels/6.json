@@ -1,0 +1,37 @@
+{
+  "boardR": 0,
+  "boardQ": 0,
+  "worldTimeLimit": 999,
+  "startPos": "",
+  "exitTilePos": "",
+  "objects": {
+    "class": "edu.cornell.gdiac.optimize.controller.GameplayController$JsonReport$Objects",
+    "enemies": [],
+    "obstacles": [],
+    "keys": []
+  },
+  "kitchen": {
+    "recipes": [
+      {
+        "name": "1",
+        "difficulty": 0,
+        "rewards": {
+          "size": 1,
+          "movements": 0,
+          "turns": 0,
+          "throwable": false
+        },
+        "ingredients": [
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "noodle",
+            "cookingMethod": "pot"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      "noodle"
+    ]
+  }
+}

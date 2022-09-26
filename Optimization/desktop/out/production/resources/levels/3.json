@@ -1,0 +1,52 @@
+{
+	"boardR": 5,
+	"boardQ": 4,
+	"worldTimeLimit": 1,
+	"startPos": "(0.0,1.0)",
+	"exitTilePos": "(3.0,3.0)",
+	"objects": {
+		"enemies": [
+			{
+				"coolTime": 180,
+				"startPosition": "(1.0,3.0)",
+				"path": [
+					"(1.0,-1.0)",
+					"(1.0,-1.0)",
+					"(-1.0,1.0)",
+					"(-1.0,1.0)"
+				]
+			}
+		],
+		"obstacles": [
+			{
+				"position": "(0.0,0.0)",
+				"texture": "null"
+			},
+			{
+				"position": "(2.0,-1.0)",
+				"texture": "null"
+			},
+			{
+				"position": "(3.0,-1.0)",
+				"texture": "null"
+			},
+			{
+				"position": "(1.0,1.0)",
+				"texture": "images/obstacle2.png"
+			},
+			{
+				"position": "(0.0,4.0)",
+				"texture": "null"
+			},
+			{
+				"position": "(1.0,4.0)",
+				"texture": "null"
+			}
+		],
+		"keys": []
+	},
+	"kitchen": {
+		"recipes": [],
+		"ingredients": []
+	}
+}

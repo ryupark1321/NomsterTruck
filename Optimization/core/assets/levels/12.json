@@ -1,0 +1,121 @@
+{
+  "boardR": 2,
+  "boardQ": 5,
+  "worldTimeLimit": 160,
+  "startPos": "(0.0,0.0)",
+  "exitTilePos": "(4.0,-1.0)",
+  "objects": {
+    "enemies": [],
+    "obstacles": [
+      {
+        "position": "(2.0,0.0)",
+        "texture": "images/obstacle1.png"
+      }
+    ],
+    "keys": ["(1.0,1.0)", "(3.0,0.0)", "(4.0,-2.0)"]
+  },
+  "kitchen": {
+    "recipes": [
+      {
+        "name": "1",
+        "difficulty": 0,
+        "rewards": {
+          "size": 2,
+          "movements": 1,
+          "turns": 3,
+          "throwable": false
+        },
+        "ingredients": [
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "rib",
+            "cookingMethod": "chop"
+          },
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "seaweed",
+            "cookingMethod": "pot"
+          }
+        ]
+      },
+      {
+        "name": "2",
+        "difficulty": 0,
+        "rewards": {
+          "size": 1,
+          "movements": 1,
+          "turns": 2,
+          "throwable": false
+        },
+        "ingredients": [
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "eye",
+            "cookingMethod": "fry"
+          }
+        ]
+      },
+      {
+        "name": "3",
+        "difficulty": 1,
+        "rewards": {
+          "size": 3,
+          "movements": 2,
+          "turns": 0,
+          "throwable": false
+        },
+        "ingredients": [
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "noodle",
+            "cookingMethod": "pot"
+          },
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "seaweed",
+            "cookingMethod": "chop"
+          },
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "rib",
+            "cookingMethod": "fry"
+          }
+        ]
+      },
+      {
+        "name" : "4",
+        "difficulty" : 2,
+        "rewards" : {
+          "size" : 3,
+          "movements": 2,
+          "turns": 1,
+          "throwable": false
+        },
+        "ingredients": [
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "noodle",
+            "cookingMethod": "pot"
+          },
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "seaweed",
+            "cookingMethod": "fry"
+          },
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "eye",
+            "cookingMethod": "fry"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      "seaweed",
+      "egg",
+      "rib",
+      "eye",
+      "noodle"
+    ]
+  }
+}

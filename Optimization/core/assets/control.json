@@ -1,0 +1,18 @@
+{
+  "textures": {
+    "white" : "images/white.png",
+    "filter" : "images/firefliesfilter.png",
+    "button" : "images/emptysettingsbutton.png",
+    "back" :  "images/backTextButton.png",
+    "gameControl" : "images/gameControl.png"
+  },
+  "fonts": {
+    "westSac": {
+      "file": "fonts/Westsac.ttf",
+      "size": 50
+    }
+  },
+  "sounds": {
+    "bgm2": "sounds/bgm2.ogg"
+  }
+}

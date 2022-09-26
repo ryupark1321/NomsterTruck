@@ -1,0 +1,83 @@
+{
+  "textures": {
+      "white" : {
+        "file" : "images/white.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "gamesettingstext" : {
+        "file" : "images/gamesettings.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "filter" : {
+        "file" : "images/firefliesfilter.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "truck": {
+        "file" : "images/loadingtruck.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "stars" : {
+        "file" : "images/star_circle.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "overallquality" : {
+        "file" : "images/overallquality.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "resolutionscale" : {
+        "file" : "images/resolutionscale.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "texturequality" : {
+        "file" : "images/texturequality.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "soundicon" : {
+        "file" : "images/soundicon.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "musicicon" : {
+        "file" : "images/musicicon.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "bar" : {
+        "file" : "images/emptygreenbar.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "blackfilter" : {
+        "file" : "images/blackfilter.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "button" : {
+        "file" : "images/emptysettingsbutton.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      },
+      "back" : {
+        "file" : "images/backTextButton.png",
+        "minFilter": "linear",
+        "magFilter": "linear"
+      }
+  },
+  "fonts": {
+    "westSac": {
+      "file": "fonts/Westsac.ttf",
+      "size": 50
+    }
+  },
+  "sounds": {
+    "bgm2": "sounds/bgm2.ogg"
+  }
+}

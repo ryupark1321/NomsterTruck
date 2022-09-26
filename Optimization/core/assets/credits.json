@@ -1,0 +1,20 @@
+{
+  "textures": {
+    "background": "images/background.png",
+    "button" : "images/emptysettingsbutton.png",
+    "back" :  "images/backTextButton.png"
+    },
+  "fonts": {
+    "westSac": {
+      "file": "fonts/Westsac.ttf",
+      "size": 50
+    },
+    "westSacCr": {
+      "file": "fonts/Westsac.ttf",
+      "size": 30
+    }
+  },
+  "sounds": {
+    "bgm2": "sounds/bgm2.ogg"
+  }
+}

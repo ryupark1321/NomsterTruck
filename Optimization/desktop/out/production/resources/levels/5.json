@@ -1,0 +1,25 @@
+{
+  "boardR": 3,
+  "boardQ": 6,
+  "worldTimeLimit": 120,
+  "startPos": "(0.0,0.0)",
+  "exitTilePos": "(5.0,0.0)",
+  "objects": {
+    "enemies": [],
+    "obstacles": [
+      {
+        "position": "(4.0,0.0)",
+        "texture": "images/obstacle2.png"
+      },
+      {
+        "position": "(2.0,0.0)",
+        "texture": "images/obstacle2.png"
+      }
+    ],
+    "keys": ["(1.0,0.0)", "(3.0,1.0)", "(5.0,-1.0)"]
+  },
+  "kitchen": {
+    "recipes": [],
+    "ingredients": []
+  }
+}

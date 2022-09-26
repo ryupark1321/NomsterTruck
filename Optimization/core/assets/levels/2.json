@@ -1,0 +1,34 @@
+{
+	"boardR": 3,
+	"boardQ": 3,
+	"worldTimeLimit": 90,
+	"startPos": "(0.0,1.0)",
+	"exitTilePos": "(2.0,0.0)",
+	"objects": {
+		"class": "edu.cornell.gdiac.optimize.controller.GameplayController$JsonReport$Objects",
+		"enemies": [],
+		"obstacles": [
+			{
+				"position": "(1.0,1.0)",
+				"texture": "images/obstacle1.png"
+			},
+			{
+				"position": "(0.0,0.0)",
+				"texture": "null"
+			},
+			{
+				"position": "(1.0,0.0)",
+				"texture": "null"
+			},
+			{
+				"position": "(2.0,-1.0)",
+				"texture": "null"
+			}
+		],
+		"keys": []
+	},
+	"kitchen": {
+		"recipes": [],
+		"ingredients": []
+	}
+}

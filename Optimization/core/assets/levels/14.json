@@ -1,0 +1,191 @@
+{
+  "boardR": 5,
+  "boardQ": 5,
+  "worldTimeLimit": 150,
+  "startPos": "(0.0,0.0)",
+  "exitTilePos": "(4.0,2.0)",
+  "objects": {
+    "enemies": [
+      {
+        "coolTime": 210,
+        "startPosition": "(1.0,1.0)",
+        "path": [
+          "(1.0,-1.0)",
+          "(-1.0,1.0)"
+        ]
+      }
+    ],
+    "obstacles": [
+      {
+        "position": "(0.0,1.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(2.0,-1.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(3.0,-1.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(4.0,-1.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(4.0,-2.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(3.0,3.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(2.0,3.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(2.0,2.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(1.0,2.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(0.0,2.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(0.0,3.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(1.0,3.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(1.0,4.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(0.0,4.0)",
+        "texture": "null"
+      },
+      {
+        "position": "(4.0,1.0)",
+        "texture": "images/obstacle1.png"
+      }
+    ],
+    "keys": ["(3.0,2.0)", "(3.0,1.0)", "(3.0,0.0)"],
+    "recipes": null,
+    "ingredients": null
+  },
+  "kitchen": {
+    "recipes": [
+      {
+        "name": "1",
+        "difficulty": 0,
+        "rewards": {
+          "size": 1,
+          "movements": 1,
+          "turns": 0,
+          "throwable": false
+        },
+        "ingredients": [
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "eye",
+            "cookingMethod": "fry"
+          }
+        ]
+      },
+      {
+        "name": "2",
+        "difficulty": 0,
+        "rewards": {
+          "size": 1,
+          "movements": 1,
+          "turns": 2,
+          "throwable": false
+        },
+        "ingredients": [
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "rib",
+            "cookingMethod": "chop"
+          }
+        ]
+      },
+      {
+        "name": "3",
+        "difficulty": 0,
+        "rewards": {
+          "size": 2,
+          "movements": 2,
+          "turns": 0,
+          "throwable": false
+        },
+        "ingredients": [
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "noodle",
+            "cookingMethod": "pot"
+          },
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "eye",
+            "cookingMethod": "fry"
+          }
+        ]
+      },
+      {
+        "name": "4",
+        "difficulty": 1,
+        "rewards": {
+          "size": 1,
+          "movements": 1,
+          "turns": 0,
+          "throwable": true
+        },
+        "ingredients": [
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "noodle",
+            "cookingMethod": "chop"
+          }
+        ]
+      },
+      {
+        "name": "5",
+        "difficulty": 1,
+        "rewards" : {
+          "size": 2,
+          "movements": 1,
+          "turns": 3,
+          "throwable": false
+        },
+        "ingredients" : [
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "eye",
+            "cookingMethod": "fry"
+          },
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "seaweed",
+            "cookingMethod": "chop"
+          }
+        ]
+      }
+    ],
+
+    "ingredients": [
+      "seaweed",
+      "egg",
+      "rib",
+      "eye",
+      "noodle"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "boardR": 0,
+  "boardQ": 0,
+  "worldTimeLimit": 300,
+  "startPos": "",
+  "exitTilePos": "",
+  "objects": {
+    "class": "edu.cornell.gdiac.optimize.controller.GameplayController$JsonReport$Objects",
+    "enemies": [],
+    "obstacles": [],
+    "keys": []
+  },
+  "kitchen": {
+    "recipes": [
+      {
+        "name": "1",
+        "difficulty": 1,
+        "rewards": {
+          "size": 2,
+          "movements": 0,
+          "turns": 0,
+          "throwable": false
+        },
+        "ingredients": [
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "noodle",
+            "cookingMethod": "pot"
+          },
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "seaweed",
+            "cookingMethod": "chop"
+          }
+        ]
+      },
+      {
+        "name": "2",
+        "difficulty": 2,
+        "rewards": {
+          "size": 3,
+          "movements": 0,
+          "turns": 0,
+          "throwable": false
+        },
+        "ingredients": [
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "egg",
+            "cookingMethod": "pot"
+          },
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "rib",
+            "cookingMethod": "fry"
+          },
+          {
+            "class": "edu.cornell.gdiac.optimize.kitchen.Ingredient",
+            "name": "eye",
+            "cookingMethod": "chop"
+          }
+        ]
+      }
+    ],
+    "ingredients": [
+      "seaweed",
+      "egg",
+      "rib",
+      "eye",
+      "noodle"
+    ]
+  }
+}

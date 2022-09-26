@@ -1,0 +1,7 @@
+[
+{
+	class: edu.cornell.gdiac.optimize.map.HexTile
+	position: "(5.0,-1.0)"
+	texture: images/obstacle1.png
+}
+]
